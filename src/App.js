@@ -25,7 +25,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://github.com/Verahvilasboas/my-app/tree/master/src"
+            href="https://funny-rolypoly-408cb7.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
