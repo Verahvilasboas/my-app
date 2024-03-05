@@ -1,18 +1,38 @@
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-    
-      </header>
+      <div className="container">
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.delac.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vera Vilas Boas
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Verahvilasboas/my-app/tree/master/src"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/Verahvilasboas/my-app/tree/master/src"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
