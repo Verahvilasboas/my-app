@@ -6,6 +6,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <button class="btn btn-primary" type="submit">
+          Button
+        </button>
+        <h1>Weather App</h1>
         <footer>
           This project was coded by{" "}
           <a
