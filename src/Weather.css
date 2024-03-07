@@ -30,6 +30,9 @@ color: #121212;
   list-style: none;
   border-radius: 16px;
 color: #878787;
+  position: relative;
+    top: 16px;
+    left: 16px;
 }
 
 input{
