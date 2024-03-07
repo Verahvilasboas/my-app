@@ -12,6 +12,7 @@ import "./Weather.css";
                 type="Search"
                 placeholder="Enter a city"
                 className="form-control"
+                autoFocus="on"
               />
             </div>
             <div className="col-3">
@@ -24,14 +25,16 @@ import "./Weather.css";
           <li>Wednesday 07:20</li>
           <li>Mostly cloudy</li>
         </ul>
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-6">
-            <img
-              src="https://static.vecteezy.com/system/resources/previews/023/258/075/non_2x/weather-icon-cloudy-sky-icon-free-png.png"
-              alt="cloudy"
-              width="90px"
-            />{" "}
-            6°C/F
+            <div className="clearfix ">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/023/258/075/non_2x/weather-icon-cloudy-sky-icon-free-png.png"
+                alt="cloudy"
+              />
+            <span className="temperature"> 6 </span>
+            <span className="unit"> °C</span>
+            </div>
           </div>
           <div className="col-6">
             <ul>
