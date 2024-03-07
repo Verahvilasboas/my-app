@@ -5,22 +5,15 @@
   background-repeat: no-repeat;
     background-size: cover;
     display: block;
-    border-radius: 16px;
-box-shadow:0 30px 50px rgba(55, 116, 128, 0.107); 
-}
-
-
-
-.App-header {
- 
-}
-
-.App-link {
-  color: #203f47;
+    border-radius: 36px;
+box-shadow:0 30px 50px rgba(34, 218, 182, 0.24); 
 }
 
 
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  font-weight: 400;
+  text-align: center;
+  padding: 16px 0px;
 }
