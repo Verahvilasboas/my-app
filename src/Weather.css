@@ -1,13 +1,20 @@
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #a0b1c8;
+  border: 1px solid #d8e8ff;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(76, 76, 76);
+  margin: 80px auto;
+  max-width: 600px;
+  color: rgb(55, 55, 55);
+}
+
+.Weather form{
+    margin-bottom: 24px;
 }
 
 .Weather h1 {
   font-size: 24px;
+  color: #535252;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
@@ -22,4 +29,19 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+}
+input{
+font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+  background-color: rgb(251, 251, 251) !important; 
+  color: #535252 !important;
+}
+
+
+.btn{
+    color: rgb(12, 230, 190);
+border-color:rgb(224, 224, 224);
+
 }
