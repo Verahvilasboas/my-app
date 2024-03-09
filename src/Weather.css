@@ -39,12 +39,15 @@ font-size: 24px;
   color: #535252 !important;
 }
 
-.btn{
-    color: rgb(12, 230, 190);
-border-color:rgb(224, 224, 224);
+
+.btn { 
+ background-color:  rgb(255, 255, 255) !important;
+border: #535252 !important;
+}
+.btn:hover{ 
+ background-color: #BCD1F5 !important;
 
 }
-
 
 .Weather canvas{
     margin: 10px auto;
