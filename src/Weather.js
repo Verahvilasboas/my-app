@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
-
+import FormattedDate from "./FormattedData";
 
 export default function Weather(props) {
  //2
@@ -19,11 +19,11 @@ export default function Weather(props) {
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
+      date: new Date(response.data.dt * 1000),
       iconUrl:
         "https://static.vecteezy.com/system/resources/previews/023/258/075/non_2x/weather-icon-cloudy-sky-icon-free-png.png",
       wind: response.data.wind.speed,
       city: response.data.name,
-      date: " Wednesday 07:00",
     });
     console.log(response.data);
   }
@@ -52,7 +52,8 @@ export default function Weather(props) {
      </form>
      <h2 className="text-capitalize"> {weatherData.city} </h2>
      <ul>
-       <li>{weatherData.date}</li>
+       <li> <FormattedDate date={weatherData.date} />
+       </li>
        <li className="text-capitalize">
          {weatherData.description}
        </li>
