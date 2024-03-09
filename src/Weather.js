@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 
+
+
 export default function Weather(props) {
  //2
  //8 deleted : const [ready, setReady]= useState(false);
  //6 i changed from temperature to weather in general
   const [weatherData, setweatherData] = useState({ready:false});
   // 1st 
-
 
 
   function handleResponse(response) {
