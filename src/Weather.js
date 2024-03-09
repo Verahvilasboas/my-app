@@ -3,7 +3,6 @@ import "./Weather.css";
 import axios from "axios";
 
 
-
 export default function Weather(props) {
  //2
  //8 deleted : const [ready, setReady]= useState(false);
@@ -51,10 +50,12 @@ export default function Weather(props) {
          </div>
        </div>
      </form>
-     <h2> {weatherData.city} </h2>
+     <h2 className="text-capitalize"> {weatherData.city} </h2>
      <ul>
        <li>{weatherData.date}</li>
-       <li className="text-capitalize">{weatherData.description}</li>
+       <li className="text-capitalize">
+         {weatherData.description}
+       </li>
      </ul>
      <div className="row mt-3">
        <div className="col-6">
