@@ -65,7 +65,7 @@ font-weight: 400;
 line-height: 64px;
   position: relative;
     top: 10px;
-
+margin-left: -4px;
 }
 .Weather .unit {
     font-size: 16px;
@@ -74,5 +74,5 @@ line-height: 64px;
     position: relative;
     top: -22px;
     left: -20px;
-    margin-left: 4px ;
+    margin-left:4px ;
 }
