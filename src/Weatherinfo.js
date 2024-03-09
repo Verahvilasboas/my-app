@@ -1,7 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedData";
 
-
 export default function Weatherinfo(props){
     return (
       <div className="WeatherInfo">
