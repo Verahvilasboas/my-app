@@ -50,7 +50,7 @@ border-color:rgb(224, 224, 224);
 }
 
 
-.Weather img{
+.Weather canvas{
     width: 64px;
  margin-right: 4px ;
     display: inline-block;
