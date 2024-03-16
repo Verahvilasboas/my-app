@@ -86,6 +86,6 @@ axios.get(apiUrl).then(handleResponse);
 //5
   } else {
 search();
-return "Loading..."
+return <div className="loadingword"> Loading...</div>; 
   }
 }
