@@ -1,6 +1,5 @@
 .WeatherForecast {
   text-align: center;
-  padding-top: 20px;
   margin: 6px;
 }
 
@@ -11,4 +10,6 @@
 
 .line{
   color: rgb(120, 120, 120);
+  padding: 4px;
 }
+
