@@ -39,7 +39,6 @@ font-size: 24px;
   color: #535252 !important;
 }
 
-
 .btn { 
  background-color:  rgb(255, 255, 255) !important;
 border: #535252 !important;
@@ -71,7 +70,7 @@ border: #535252 !important;
   position: relative;
   line-height: 1;
   top: -84px;
-  right: -80px;
+  right: -88px;
 }
 .Weather .unit {
      color: rgb(33, 33, 33);
